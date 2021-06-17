@@ -1,0 +1,66 @@
+bin
+dist
+output
+logs/*
+classes
+target
+docker-test-runner/test-reports
+
+ansible/game-webapp
+ansible/group_vars
+ansible/*.retry
+
+# IDEA settings
+.idea/
+*.iml
+*.ids
+out/
+
+#MacOS
+.DS_Store
+
+# P6Spy config
+spy.properties
+
+*.ipr
+*.iws
+
+# docker-compile envs files
+envs/db
+envs/thumbloader
+envs/thumbor
+envs/sso
+
+#Sublime Text
+*.sublime-project
+*.sublime-workspace
+cobertura.ser
+
+# VS Code
+.vscode
+
+.slcache
+.shelf
+*.orig
+
+
+.gradle
+build
+
+application-production.yml
+application-development.yml
+application-test.yml
+.docker
+
+.project
+.classpath
+.settings
+
+# helm
+helm/*.env
+helm/charts/*
+
+*.pyc
+
+helm/Chart.lock
+helm/charts
