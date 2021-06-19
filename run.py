@@ -2,8 +2,8 @@ import argparse
 import os
 import sys
 
-from parser.reader import read
-from parser.writer import write
+from .parser.reader import read
+from .parser.writer import write
 
 
 def _create_dir():
